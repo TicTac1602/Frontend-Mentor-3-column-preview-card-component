@@ -1,0 +1,115 @@
+    * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        --yellowish: #e28625;
+        --lt-greenish: #006971;
+        --dk-greenish: #004140;
+        --whiteish: #f2f2f2;
+        --white: #ffffff;
+        --big-shoulder: "Big Shoulders Display", cursive;
+        --lexend-deca: "Lexend Deca", sans-serif;
+    }
+
+    body {
+        background-color: var(--whiteish);
+    }
+    main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        position: relative;
+    }
+
+    .card {
+        width: 327px;
+        height: 442px;
+        padding: 48px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .card-img {
+        width: 64px;
+        height: 40px;
+    }
+
+    .card-title {
+        font-size: 40px;
+        font-weight: 700;
+        font-family: var(--big-shoulder);
+        color: var(--whiteish);
+        text-transform: uppercase;
+    }
+
+    .card-text {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        font-family: var(--lexend-deca);
+        color: var(--white);
+        opacity: .75;
+        max-width: 231px;
+    }
+
+    #sedans {
+        background-color: var(--yellowish);
+        border-radius: 8px 8px 0 0;
+        margin-top: 90px;
+    }
+
+    #suvs {
+        background-color: var(--lt-greenish);
+    }
+
+    #luxury {
+        background-color: var(--dk-greenish);
+        border-radius: 0 0 8px 8px;
+    }
+    .sedans {
+        color: var(--yellowish);
+    }
+
+    .suvs {
+        color: var(--lt-greenish);
+    }
+
+    .luxury {
+        color: var(--dk-greenish);
+    }
+
+    button {
+        cursor: pointer;
+        width: 146px;
+        height: 48px;
+        font-size: 15px;
+        font-family: var(--lexend-deca);
+        border-radius: 48px;
+        border: none;
+        transition: 0.5s;
+    }
+
+    button:hover {
+        color: var(--white);
+        border: 2px solid white;
+        background-color: transparent;
+        transition: 0.5s;
+    }
+
+    #sedans {
+        margin: 0;
+        border-radius: 8px 0 0 8px;
+    }
+
+    #luxury {
+        border-radius: 0 8px 8px 0;
+    }
+
+@media only screen and (max-width: 768px) {
+    main{
+        flex-direction: column;
+    }    
+}
