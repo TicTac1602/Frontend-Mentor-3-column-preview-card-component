@@ -1,27 +1,50 @@
-# 3 Column Card Component
-## Welcome! 👋
-**Pour faire ce TP tu devras avoir des connaissances en HTML et CSS.**
+# Frontend Mentor - 3-column preview card component solution
 
-## Le challenge
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Ton but est de créer un 3 Column Card Component et de la faire ressembler le plus possible à l'exemple données dans le dossier design
+## Table of contents
 
-Bloqué à un endroit ?
-Regardez bien le css et les noms associé (des indices y sont glissés)
-Recherche ton problème sur internet
-Demande de l'aide autour de toi
-Demande à un animateur disponible de t'aider
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-## Ou se trouvent les choses ?
+## Overview
 
-Votre tâche est de construire le projet sur les conceptions à l'intérieur du dossier `/design`. Vous trouverez une version de bureau du design.
+### The challenge
 
-Vous trouverez tous les actifs requis dans le dossier `/images`. Les actifs sont déjà optimisés.
+Users should be able to:
 
-Il existe également un fichier `style-guide.md` contenant les informations dont vous aurez besoin, telles que la palette de couleurs et les polices.
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
-## Le project
+### Links
 
-Dans ce projet le texte est déjà donner il d'agit de bien mettre les balises HTML pour correspondre au CSS données et relier a cette page. Hésitez pas à vous y référez pour trouvez les nomenclatures et indices de construction.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-**Bonne chance!** 🚀
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+
+### What I learned
+
+Nothing importatnt this is an upload of old work I made while learning HTML5 and CSS.
+
+### Continued development
+
+I will continue to focus on those kind of projects. 
+
+## Author
+
+- Website - [Emil Toulouse](https://emiltoulouse.com)
+- Frontend Mentor - [@TicTac1602](https://www.frontendmentor.io/profile/TicTac1602)
